@@ -9,7 +9,7 @@
  * Return: 1 if c is true else 0
 */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
