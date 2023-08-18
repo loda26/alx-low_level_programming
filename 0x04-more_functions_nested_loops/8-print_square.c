@@ -18,7 +18,7 @@ void print_square(int size)
 	{
 		for (line = 1; line <= size; line++)
 		{
-			for (col = 1; col <= sizie; col++)
+			for (col = 1; col <= size; col++)
 				_putchar('#');
 			_putchar('\n');
 		}
