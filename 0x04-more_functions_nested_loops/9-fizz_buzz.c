@@ -19,11 +19,11 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else if (three == 0)
+		else if (three == 0 && !(five == 0))
 		{
 			printf("Fizz");
 		}
-		else if (five == 0)
+		else if (five == 0 && !(three == 0))
 		{
 		printf("Buzz");
 		}
