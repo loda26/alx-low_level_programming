@@ -31,7 +31,10 @@ int main(void)
 		{
 		printf("%i", i);
 		}
-		printf(" ");
+		if (i != 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
 
 	return (0);
