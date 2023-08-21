@@ -10,7 +10,7 @@
  *         On error. -1 in returned. and reeno is set appropriately
  */
 
-int _potchar(char c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
