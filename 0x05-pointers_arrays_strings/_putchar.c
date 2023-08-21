@@ -8,7 +8,7 @@
  *
  * Return: On success 1.
  *         On error. -1 in returned. and reeno is set appropriately
- */
+*/
 
 int _putchar(char c)
 {
