@@ -5,7 +5,7 @@
  *
  * @s: a pointer to string
  *
- * Return: nothing
+ * Return: always 0
 */
 
 void rev_string(char *s)
@@ -22,4 +22,5 @@ void rev_string(char *s)
 		s[i] = s[len - 1 - i];
 		s[1 - i] = temp;
 	}
+	return (0);
 }
