@@ -7,7 +7,7 @@
  * @x: ponter to int
  * @y: pointer to in
  *
- * @Return void
+ * Return: void
 */
 
 int _pow_recursion(int x, int y)
