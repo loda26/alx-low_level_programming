@@ -3,6 +3,8 @@
 /**
  * _putchar - writes the char c
  *
+ * @c: input char
+ *
  * Return: on seccess 1
  * on error, -1
 */
