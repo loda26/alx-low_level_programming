@@ -5,7 +5,7 @@
  *
  * @s: a pointer to string
  *
- * Return: always 0
+ * Return: nothing
 */
 
 void rev_string(char *s)
