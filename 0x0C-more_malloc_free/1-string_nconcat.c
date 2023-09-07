@@ -9,7 +9,8 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int *str, lens1, lens2, i, j;
+	char *str;
+	int lens1, lens2, i, j;
 
 	if (s1 == NULL)
 		s1 = "";
