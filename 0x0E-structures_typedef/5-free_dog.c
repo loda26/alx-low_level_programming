@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * dree_dog - free the dog
+ * free_dog - free the dog
  * @d: input
  * Return: void
 */
