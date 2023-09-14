@@ -53,7 +53,7 @@ void print_all(const char * const format, ...)
 	token_t tokens[] = {
 		{"c", format_char},
 		{"i", format_int},
-		{"f", format_float},
+		{"f", format_int},
 		{"s", format_string},
 		{NULL, NULL}
 	};
