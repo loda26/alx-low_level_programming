@@ -17,12 +17,12 @@ void print_binary(unsigned long int n);
 
 		if (bit & 1)
 		{
-			printf("%d", 1);
+			printf("%c", "1");
 			count++;
 		}
 		else if (count)
-			printf("%d", 0);
+			printf("%c", "0");
 	}
 	if (!count)
-		printf("%d", 0);
+		printf("%c", "0");
 }
