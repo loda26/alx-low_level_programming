@@ -27,8 +27,7 @@ int _strlen(char *s)
 
 int create_file(const char *filename, char *text_content)
 {
-	int fptr;
-	ssize_t bits = 0, len = _strlen(text_content);
+	int fptr,  bits = 0, len = _strlen(text_content);
 
 	if (!filename)
 		return (-1);
