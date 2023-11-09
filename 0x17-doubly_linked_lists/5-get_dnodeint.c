@@ -4,7 +4,8 @@
  * get_dnodeint_at_index - return node at given index
  * @head: head node
  * @index: index
- * Return: address of node at idx*/
+ * Return: address of node at idx
+*/
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
