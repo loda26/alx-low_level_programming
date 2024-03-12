@@ -20,31 +20,28 @@ void print_array(int *array, int left, int right)
 }
 
 /**
-  * binary_search - Searches for a value in a sorted array
-  *                 of integers using binary search.
-  * @array: A pointer to the first element of the array to search.
-  * @size: The number of elements in the array.
-  * @value: The value to search for.
-  *
-  * Return: value or -1
-*/
-
+ * binary_search - search for an element in an array
+ * @array: the array we want to search in
+ * @size: size of the array
+ * @value: the target value
+ * Return: the index of the value or -1 if not found
+ */
 int binary_search(int *array, size_t size, int value)
 {
-	int mid, left = 0, right = size - 1;
+	int left = 0, right = size - 1, mid;
 
-	if (array == NULL || size == 0)
+	if (!array || size == 0)
 		return (-1);
 
 	while (left <= right)
 	{
 		printf("Searching in array: ");
 		print_array(array, left, right);
-		mid = left + (right - 1) / 2;
+		mid = left + (right - left) / 2;
 
-		if (value < array[mid])
+		if (array[mid] > value)
 			right = mid - 1;
-		else if (value > array[mid])
+		else if (array[mid] < value)
 			left = mid + 1;
 		else
 			return (mid);
